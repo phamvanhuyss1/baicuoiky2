@@ -1,0 +1,14 @@
+from sort import bubble_sort
+from sort import selection_sort
+array=[15345,4232,14332,42132,2421,5212,42142,124]
+print('bubble_sort : 1\nselection_sort: 2')
+b = int(input())
+if b==1 :
+    print('bubble_sort')
+    bubble_sort(array)
+if b==2 :
+    print('selection_sort')
+    selection_sort(array)
+if b!=1 and b!=2 :
+    print('no sort')
+print(array)
